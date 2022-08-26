@@ -3,13 +3,6 @@
   /* An array of objects. */
   const games = [
       {
-          name: "Crossy Road von Daniel (Test)",
-          description: "Chicken cross road, chicken die",
-          popuptext: "play Cross Road now!",
-          thumbnail:"snake",
-          url: "https://cuddlybunion341.github.io/crossy-road-clone/public"
-      },
-      {
           name:"tictactoe",
           description: "Do you want to play tictactoe?",
           popuptext: "Play tictactoe now!",
