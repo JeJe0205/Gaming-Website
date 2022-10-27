@@ -41,7 +41,7 @@
         name: "Memes Generator",
         description: "Do you want to play Spiel 4?",
         popuptext: "Play Spiel 4 Now!",
-        url: " https://jenith-jeyaranjan.github.io/memesgenerator/"
+        url: "https://jeje0205.github.io/Memes/"
     },
    
 
