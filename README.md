@@ -1,3 +1,3 @@
 # Gaming Website
 ##Live Server
-https://jenith-jeyaranjan.github.io/Script4Fun_Projekt/
+https://jeje0205.github.io/Gaming-Website/
