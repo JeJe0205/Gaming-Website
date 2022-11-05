@@ -3,13 +3,6 @@
   /* An array of objects. */
   const games = [
       {
-          name:"tictactoe",
-          description: "Do you want to play tictactoe?",
-          popuptext: "Play tictactoe now!",
-          thumbnail: "snake",
-          url: ""
-      },
-      {
         name: "Color Game",
         description: "Do you want to guess a color based on the rgb notation",
         popuptext: "Play Colorgame Now!",
@@ -22,28 +15,37 @@
         popuptext: "Play PixelArt Now!",
         url: "https://jeje0205.github.io/PixelArt/"
     },
+   {
+          name: "Memes Generator",
+          description: "Do you want to play Spiel 4?",
+          popuptext: "Play Spiel 4 Now!",
+          url: "https://jeje0205.github.io/Memes/"
+   },
       {
           name: "Snake Game",
           description:"Do you want to play Snake Game?",
           popuptext: "Play Snakegame now!",
-          thumbnail:"snake"
+          thumbnail:"snake",
+          url: "https://jeje0205.github.io/snake/"
         },
     {
         name: "Flappybird",
         description: "Do you want to play Flappybird?",
         popuptext: "Play Flappybird Now!",
     },
+      {
+          name:"tictactoe",
+          description: "Do you want to play tictactoe?",
+          popuptext: "Play tictactoe now!",
+          thumbnail: "snake",
+          url: ""
+      },
     {
         name: "Random Number",
         description: "Do you want to guess a random Number",
         popuptext: "Play Random Number Now!",
     },
-    {
-        name: "Memes Generator",
-        description: "Do you want to play Spiel 4?",
-        popuptext: "Play Spiel 4 Now!",
-        url: "https://jeje0205.github.io/Memes/"
-    },
+
       {
           name: "Spiel 8",
           description: "Do you want to play Spiel 4?",
