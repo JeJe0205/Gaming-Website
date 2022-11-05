@@ -44,6 +44,12 @@
         popuptext: "Play Spiel 4 Now!",
         url: "https://jeje0205.github.io/Memes/"
     },
+      {
+          name: "Spiel 8",
+          description: "Do you want to play Spiel 4?",
+          popuptext: "Play Spiel 4 Now!",
+          url: ""
+      },
    
 
 ]
