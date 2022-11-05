@@ -5,7 +5,6 @@ const games = [
         name: "Color Game",
         description: "Do you want to guess a color (rgb notation)?",
         popuptext: "Play Colorgame Now!",
-        thumbnail: "snake",
         url: "https://jenith-jeyaranjan.github.io/colorgame"
     },
     {
@@ -24,7 +23,6 @@ const games = [
         name: "Snake Game",
         description: "Do you want to play Snake Game?",
         popuptext: "Play Snakegame now!",
-        thumbnail: "snake",
         url: "https://jeje0205.github.io/snake/"
     },
     {
@@ -36,7 +34,6 @@ const games = [
         name: "tictactoe",
         description: "Do you want to play tictactoe?",
         popuptext: "Play tictactoe now!",
-        thumbnail: "snake",
         url: ""
     },
     {
@@ -60,7 +57,7 @@ const games = [
 window.addEventListener('load', () => {
     const wrapper = document.querySelector(".container");
     games.forEach(game => {
-        const {name, description, thumbnail = "snake", popuptext, url = ""} = game;
+        const {name, description, thumbnail = "photo-1103595_640", popuptext, url = ""} = game;
 
         /* Creating a template literal. */
         const html = `
