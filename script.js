@@ -26,7 +26,7 @@
           name: "Snake Game",
           description:"Do you want to play Snake Game?",
           popuptext: "Play Snakegame now!",
-          thumbnail:"snake",
+          thumbnail:"snake"
         },
     {
         name: "Flappybird",
