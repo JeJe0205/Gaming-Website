@@ -1,69 +1,71 @@
 /* navigation bar. */
 form.example input[type=text] {
-  padding: 12px;
-  font-size: 17px;
-  border: 1px solid grey;
-  float: left;
-  width: 80%;
-  background: #f1f1f1;
-  float: right;
-  max-width:300px
+    padding: 12px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 80%;
+    background: #f1f1f1;
+    float: right;
+    max-width: 300px
 }
 
-*{
+* {
     margin: 0;
-    padding: 0; 
+    padding: 0;
     box-sizing: border-box;
-  }
+}
 
-  header {
-	background-color: white;
+header {
+    background-color: white;
 }
 
 ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color:rgb(11, 119, 202);
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(11, 119, 202);
 }
 
 li {
-  float: left;
+    float: left;
 }
 
 li a {
-  display: block;
-  color: black;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
 
 li a:hover {
-  background-color: lightblue;
+    background-color: lightblue;
 }
+
 /* The CSS code for the body of the website. */
-  
-  body{
+
+body {
     font-family: Arial, Helvetica, sans-serif;
     background-attachment: fixed;
     background-repeat: repeat;
     background-size: cover;
     background-position: center;
     background-image: url('colors.png');
-  }
-  
-  .container{
+}
+
+.container {
     width: 100%;
     margin: auto;
     display: flex;
     flex-direction: right;
     flex-wrap: wrap;
-  }
-  /* The CSS code for the Cards of the website. */
-  
-  .card{
+}
+
+/* The CSS code for the Cards of the website. */
+
+.card {
     position: relative;
     width: 347px;
     min-height: 350px;
@@ -74,24 +76,30 @@ li a:hover {
     background-color: rgb(11, 119, 202);
     display: inline-table;
     margin: 16px;
-  }
-  
-  .card:hover{ transform: scale(1.1);}
-  
-  .card img{ width: 100%;}
-  
-  .card:hover .image{
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+.card img {
+    width: 100%;
+}
+
+.card:hover .image {
     filter: brightness(50%);
     -webkit-transition: all 1s ease;
     -moz-transition: all 1s ease;
     -o-transition: all 1s ease;
     -ms-transition: all 1s ease;
     transition: all 1s ease;
-  }
-  
-  .details{padding: 15px;}
-  
-  .middle{
+}
+
+.details {
+    padding: 15px;
+}
+
+.middle {
     position: absolute;
     top: 30%;
     left: 50%;
@@ -101,25 +109,34 @@ li a:hover {
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     filter: brightness(100%);
-  }
-  
-  .middle i{
+}
+
+.middle i {
     font-size: 70px;
     color: red;
-  }
-  
-  .middle h1{
+}
+
+.middle h1 {
     background-color: lightblue;
     padding: 50px;
-  }
-  
-  .card:hover .middle{ opacity: 1;}
-  
-  @media (max-width:1280px){
-    .container{ width: 95%;}
-  }
-  @media (max-width:768px){
-    .card{ width: 95%;}
-  
-    .card:hover{ transform: scale(1);}
-  }
+}
+
+.card:hover .middle {
+    opacity: 1;
+}
+
+@media (max-width: 1280px) {
+    .container {
+        width: 95%;
+    }
+}
+
+@media (max-width: 768px) {
+    .card {
+        width: 95%;
+    }
+
+    .card:hover {
+        transform: scale(1);
+    }
+}

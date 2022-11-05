@@ -1,12 +1,11 @@
-
 /*HTML*/
-  /* An array of objects. */
-  const games = [
-      {
+/* An array of objects. */
+const games = [
+    {
         name: "Color Game",
-        description: "Do you want to guess a color based on the rgb notation",
+        description: "Do you want to guess a color (rgb notation)?",
         popuptext: "Play Colorgame Now!",
-        thumbnail:"snake",
+        thumbnail: "snake",
         url: "https://jenith-jeyaranjan.github.io/colorgame"
     },
     {
@@ -15,44 +14,44 @@
         popuptext: "Play PixelArt Now!",
         url: "https://jeje0205.github.io/PixelArt/"
     },
-   {
-          name: "Memes Generator",
-          description: "Do you want to play Spiel 4?",
-          popuptext: "Play Spiel 4 Now!",
-          url: "https://jeje0205.github.io/Memes/"
-   },
-      {
-          name: "Snake Game",
-          description:"Do you want to play Snake Game?",
-          popuptext: "Play Snakegame now!",
-          thumbnail:"snake",
-          url: "https://jeje0205.github.io/snake/"
-        },
+    {
+        name: "Memes Generator",
+        description: "Do you want to play Spiel 4?",
+        popuptext: "Play Spiel 4 Now!",
+        url: "https://jeje0205.github.io/Memes/"
+    },
+    {
+        name: "Snake Game",
+        description: "Do you want to play Snake Game?",
+        popuptext: "Play Snakegame now!",
+        thumbnail: "snake",
+        url: "https://jeje0205.github.io/snake/"
+    },
     {
         name: "Flappybird",
         description: "Do you want to play Flappybird?",
         popuptext: "Play Flappybird Now!",
     },
-      {
-          name:"tictactoe",
-          description: "Do you want to play tictactoe?",
-          popuptext: "Play tictactoe now!",
-          thumbnail: "snake",
-          url: ""
-      },
     {
-        name: "Random Number",
-        description: "Do you want to guess a random Number",
-        popuptext: "Play Random Number Now!",
+        name: "tictactoe",
+        description: "Do you want to play tictactoe?",
+        popuptext: "Play tictactoe now!",
+        thumbnail: "snake",
+        url: ""
+    },
+    {
+        name: "Spiel 7",
+        description: "Do you want to play Spiel 7",
+        popuptext: "",
+        url: ""
+    },
+    {
+        name: "Spiel 8",
+        description: "Do you want to play Spiel 8",
+        popuptext: "",
+        url: ""
     },
 
-      {
-          name: "Spiel 8",
-          description: "Do you want to play Spiel 4?",
-          popuptext: "Play Spiel 4 Now!",
-          url: ""
-      },
-   
 
 ]
 
@@ -61,9 +60,9 @@
 window.addEventListener('load', () => {
     const wrapper = document.querySelector(".container");
     games.forEach(game => {
-        const {name,description,thumbnail = "snake",popuptext, url=""} = game;
+        const {name, description, thumbnail = "snake", popuptext, url = ""} = game;
 
-       /* Creating a template literal. */
+        /* Creating a template literal. */
         const html = `
             <div class="card" id="colorgame_card">
                 <img class="image" src="img/thumbnails/${thumbnail}.png">
@@ -87,11 +86,11 @@ window.addEventListener('load', () => {
 
 
         /* Adding an event listener to the middle div. */
-        card.querySelector(".middle")?.addEventListener('click',() => {
+        card.querySelector(".middle")?.addEventListener('click', () => {
             window.open(url)
-                console.log(card.querySelector(".middle"));
-});
-/* Appending the card to the wrapper. */
+            console.log(card.querySelector(".middle"));
+        });
+        /* Appending the card to the wrapper. */
 
         wrapper.appendChild(card);
     })
@@ -102,13 +101,13 @@ const searchCards = () => {
     const search = document.getElementById("myInput").value;
     const cards = document.querySelectorAll(".card");
     cards.forEach((card) => {
-      const name = card.querySelector(".details h1").innerText;
-      if (name.toUpperCase().indexOf(search.toUpperCase()) > -1) {
-        card.style.display = "";
-      } else {
-        card.style.display = "none";
-      }
+        const name = card.querySelector(".details h1").innerText;
+        if (name.toUpperCase().indexOf(search.toUpperCase()) > -1) {
+            card.style.display = "";
+        } else {
+            card.style.display = "none";
+        }
     });
-  };
+};
 
 
