@@ -20,6 +20,7 @@
         name: "PixelArt",
         description: "Do you want to draw with Pixels?",
         popuptext: "Play PixelArt Now!",
+        url: "https://jeje0205.github.io/PixelArt/"
     },
       {
           name: "Snake Game",
