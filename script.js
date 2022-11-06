@@ -29,6 +29,7 @@ const games = [
         name: "Flappybird",
         description: "Do you want to play Flappybird?",
         popuptext: "Play Flappybird Now!",
+        url: " https://jeje0205.github.io/Flappybird/"
     },
     {
         name: "tictactoe",
@@ -38,13 +39,37 @@ const games = [
     },
     {
         name: "Spiel 7",
-        description: "Do you want to play Spiel 7",
+        description: "Do you want to play Spiel 7?",
         popuptext: "",
         url: ""
     },
     {
         name: "Spiel 8",
-        description: "Do you want to play Spiel 8",
+        description: "Do you want to play Spiel 8?",
+        popuptext: "",
+        url: ""
+    },
+    {
+        name: "Spiel 9",
+        description: "Do you want to play Spiel 9?",
+        popuptext: "",
+        url: ""
+    },
+    {
+        name: "Spiel 10",
+        description: "Do you want to play Spiel 10?",
+        popuptext: "",
+        url: ""
+    },
+    {
+        name: "Spiel 11",
+        description: "Do you want to play Spiel 11?",
+        popuptext: "",
+        url: ""
+    },
+    {
+        name: "Spiel 12",
+        description: "Do you want to play Spiel 12?",
         popuptext: "",
         url: ""
     },
