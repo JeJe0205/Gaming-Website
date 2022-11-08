@@ -42,7 +42,7 @@ const games = [
         name: "Pong",
         description: "Do you want to play Pong?",
         popuptext: "Play Pong now!",
-        url: ""
+        url: "https://jeje0205.github.io/Pong/"
     },
     {
         name: "Spiel 8",
