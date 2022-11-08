@@ -25,6 +25,7 @@ const games = [
         popuptext: "Play Snakegame now!",
         url: "https://jeje0205.github.io/snake/"
     },
+
     {
         name: "Flappybird",
         description: "Do you want to play Flappybird?",
@@ -38,9 +39,9 @@ const games = [
         url: ""
     },
     {
-        name: "Spiel 7",
-        description: "Do you want to play Spiel 7?",
-        popuptext: "",
+        name: "Pong",
+        description: "Do you want to play Pong?",
+        popuptext: "Play Pong now!",
         url: ""
     },
     {
