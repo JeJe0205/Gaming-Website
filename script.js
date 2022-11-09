@@ -84,7 +84,6 @@ window.addEventListener('load', () => {
     const wrapper = document.querySelector(".container");
     games.forEach(game => {
         const {name, description, thumbnail = "photo-1103595_640", popuptext, url = ""} = game;
-
         /* Creating a template literal. */
         const html = `
             <div class="card" id="colorgame_card">
@@ -114,7 +113,6 @@ window.addEventListener('load', () => {
             console.log(card.querySelector(".middle"));
         });
         /* Appending the card to the wrapper. */
-
         wrapper.appendChild(card);
     })
 });
